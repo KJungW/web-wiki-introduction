@@ -16,4 +16,24 @@ console.log(
   "color: #d81b60; font-size: 16px; font-weight: bold;"
 );
 
-console.log("알맞은 스크립트를 작성하세요");
+let commentList = document.querySelector(".comment-list")
+let commentTemplate = document.getElementById("comment_template");
+let commentInput = document.getElementById("comment_input");
+
+const clickCommentCancelButton = () => {
+    commentInput.value = "";
+}
+
+const clickCommentRegisterButton = () => {
+    commentTemplate.style.display = 'Block';
+    let duplicated = commentTemplate.cloneNode(true);
+    commentTemplate.style.display = 'None';
+
+    text = commentInput.value;
+    duplicated.childNodes[1].childNodes[3].textContent = text;
+    commentList.appendChild(duplicated)
+
+    alert("댓글이 등록되었습니다");
+}
+
+
