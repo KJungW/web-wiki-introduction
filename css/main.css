@@ -16,3 +16,68 @@
   background-position : center center;
   background-repeat: no-repeat;
 }
+
+#comment {
+  display: flex;
+  height: 50px;
+}
+
+.input_comment{
+  width: 80%;
+}
+
+#comment_input{
+  width: 70%;
+  border-style: solid;
+  border-color: lightgray;
+  background: url("/images/comment-author-icon.png");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: 10px center;
+  padding-left: 50px;
+}
+
+#comment_cancel{
+  width: 80px;
+  background: lightgray;
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+#comment_register{
+  width: 80px;
+  background: lightblue;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.comment-item {
+  border: 1px solid lightgray;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.comment-author {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.comment_author_img {
+  width: 40px;
+  aspect-ratio: 1;
+}
+
+.comment_author_name {
+  margin-left: 20px;
+}
