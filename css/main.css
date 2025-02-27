@@ -12,57 +12,66 @@
 }
 
 #gallery_image1{
-  background-image : url("/web-wiki-introduction/images/comment-author-icon.png");
+  background-image : url("/web-wiki-introduction/images/food1.jpg");
   background-position : center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #gallery_image2{
-  background-image : url("/web-wiki-introduction/images/comment-author-icon.png");
+  background-image : url("/web-wiki-introduction/images/food2.jpg");
   background-position : center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #gallery_image3{
-  background-image : url("/web-wiki-introduction/images/comment-author-icon.png");
+  background-image : url("/web-wiki-introduction/images/food3.jpg");
   background-position : center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #gallery_image4{
-  background-image : url("/web-wiki-introduction/images/comment-author-icon.png");
+  background-image : url("/web-wiki-introduction/images/food4.jpg");
   background-position : center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #gallery_image5{
-  background-image : url("/web-wiki-introduction/images/comment-author-icon.png");
+  background-image : url("/web-wiki-introduction/images/food5.jpg");
   background-position : center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #gallery_image6{
-  background-image : url("/web-wiki-introduction/images/comment-author-icon.png");
+  background-image : url("/web-wiki-introduction/images/food6.jpg");
   background-position : center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #gallery_image7{
-  background-image : url("/web-wiki-introduction/images/comment-author-icon.png");
+  background-image : url("/web-wiki-introduction/images/food7.jpg");
   background-position : center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #gallery_image8{
-  background-image : url("/web-wiki-introduction/images/comment-author-icon.png");
+  background-image : url("/web-wiki-introduction/images/food8.jpg");
   background-position : center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #gallery_image9{
-  background-image : url("/web-wiki-introduction/images/comment-author-icon.png");
+  background-image : url("/web-wiki-introduction/images/food9.jpg");
   background-position : center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #comment {
